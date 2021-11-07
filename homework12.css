@@ -1,0 +1,65 @@
+#addr {
+    text-align: center;
+}
+
+
+#color {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#colortext {
+    color: aqua
+}
+
+#colortext1 {
+    color: red
+}
+
+#colortext2 {
+    color: brown
+}
+
+#colortext3 {
+    color: pink
+}
+
+#header1 {
+    font-size: 11;
+}
+
+#header2 {
+    font-size: 12;
+}
+
+#header3 {
+    font-size: 13;
+}
+
+#header4 {
+    font-size: 14;
+}
+
+#header5 {
+    font-size: 15;
+}
+
+#header6 {
+    font-size: 16;
+}
+
+#header7 {
+    font-size: 17;
+}
+
+#header8 {
+    font-size: 18;
+}
+
+#header9 {
+    font-size: 19;
+}
+
+#header10 {
+    font-size: 20;
+}

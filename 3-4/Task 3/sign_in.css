@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 1100px;
+}
+
+.block {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    margin-top: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.block1 {
+    background-color: rgb(241, 241, 245);
+    border: solid 1px rgb(223, 224, 224);
+    padding: 30px;
+    border-radius: 3%;
+    font-size: 120%;
+    min-width: 100%;
+}
+
+button {
+    width: 100%;
+    font-weight: 900;
+}
+
+.block2 {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(223, 224, 224);
+    padding: 30px;
+    border-radius: 3%;
+    text-align: center;
+}

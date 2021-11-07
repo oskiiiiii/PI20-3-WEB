@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Survey1.css">
+    </head>
+    <body bgcolor="beige">
+        <br>
+        <br>
+        <h1>ОПРОС</h1>
+        <p style="font-size: 150%; text-align: center;"><b>Как много времени Вы проводите в социальных сетях?</b></p>
+        <br>
+        <br>
+        <div class='back'>
+            <div class="text">
+                <br>
+                <br>
+                <p><strong style="padding-left: 5%;">Имя:</strong> <input type="text"> </p>
+                <p><strong>Фамилия:</strong> <input type="text"> </p>
+                <p><strong>Отчество:</strong> <input type="text"> </p>
+                <p><strong>Дата рождения:</strong> <input type="date" style="padding-left: 9%;"> </p>
+                <p><strong style="padding-left: 4%;">Пол:</strong><input type="radio" id="male" name="gender" value="male"><label for="male">Мужчина</label>
+                    <input type="radio" id="female" name="gender" value="female"><label for="female">Женщина</label><br></p>
+                <p><label for="phone"><strong>Телефон: &nbsp;</strong></label><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></p>
+                <p><strong style="padding-left: 3%;">Email:</strong> <input type="email"> </p>
+                <br>
+                <hr width="60%" style="border-width: 5%;">
+            </div>
+            <br>
+            <div class="text1" style="padding-left: 7%;">
+                <p style="text-align: center;"><b>1. Сколько часов в день Вы проводите в соцсетях?</b> <select name="">
+                    <option value="1">1-2</option>
+                    <option value="2">3-4</option>
+                    <option value="3">Более 5</option>
+                </select></p>
+               
+                <p style="text-align: center;"><b>2. Считаете ли Вы себя зависимым от соцсетей?</b> <select name="user_profile">
+                    <option value="1">Да</option>
+                    <option value="2">Нет</option>
+                    <option value="3">Затрудняюсь ответить</option>
+                </select></p>
+             
+                <p style="text-align: center;"><b>3. Для чего Вы обычно заходите в соцсети?</b></p>
+                <p style="padding-left: 35%;"><input type="checkbox" id="pick1"><label for="pick1">Для общения</label><br>
+                <input type="checkbox" id="pick2"><label for="pick2">Для поднятия настроения</label><br>
+                <input type="checkbox" id="pick3"><label for="pick3">Чтобы быть в курсе последних событий</label><br>
+                <input type="checkbox" id="pick5"><label for="pick5">Необходимо по работе</label><br>
+                <input type="checkbox" id="pick4"><label for="pick4">Другое</label><br></p>
+
+                <p style="text-align: center;"><b>Если Вы ответили "Другое", пожалуйста, уточните:</b> &nbsp;<textarea></textarea></p>
+                
+
+                <br>
+                <p style="text-align: center;"><input type="submit" value="Отправить"></p>
+            </div>
+        </div>
+    </body>

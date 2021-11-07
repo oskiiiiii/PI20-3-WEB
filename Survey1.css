@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: rgb(27, 25, 24);
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:100%;
+}
+
+.text1 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:100%;
+}
+
+.back{
+    width: 50%;
+    height: 105%;
+    border:2px solid;
+    margin:auto;
+    background: rgb(255, 252, 246);}

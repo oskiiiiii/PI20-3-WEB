@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+    <body style="background-color: rgb(109, 109, 109);">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              <a class="nav-link" href="#">Другие опросы</a>
+              <a class="nav-link" href="#">Результаты опросов</a>
+              <a class="nav-link" href="#">О нас</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="col-md-8 offset-md-2 rounded">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="2.jpg" class="d-block w-100" alt="..." height="800">
+            </div>
+            <div class="carousel-item">
+              <img src="3.jpg" class="d-block w-100" alt="..." height="800">
+            </div>
+            <div class="carousel-item">
+              <img src="4.jpg" class="d-block w-100" alt="..." height="800">
+            </div>
+            <div class="carousel-item">
+              <img src="5.jpg" class="d-block w-100" alt="..." height="800">
+            </div>
+            <div class="carousel-item">
+              <img src="1.jpg" class="d-block w-100" alt="..." height="800">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h1 class="text-center" style="color: rgb(226, 226, 226);">Опрос</h1>
+      <h3 class="text-center" style="color: rgb(226, 226, 226);">Как много времени Вы проводите в соцсетях?</h3>
+      <br>
+        <form>
+          <div class="container">
+              <div class="row" style="align-content: center;" >
+                <div class="col-md-6 offset-md-3" style='background-color:white';>
+                  <br>
+                  <br>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="name" class="control-label col-md-3" style="font-size: 18; margin-top: 6;">Имя:</label>
+                    <div class="col-sm-2">
+                        <input type="name" class="form-control" id="name" placeholder="Введите имя">
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="name" class="control-label col-md-3" style="font-size: 18; margin-top: 6;">Фамилия:</label>
+                    <div class="col-sm-2">
+                        <input type="name" class="form-control" id="name" placeholder="Введите фамилию">
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="name" class="control-label col-md-3" style="font-size: 18; margin-top: 6;">Отчество:</label>
+                    <div class="col-sm-2">
+                        <input type="name" class="form-control" id="name" placeholder="Введите отчество">
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="date" class="col-form-label col-md-3" style="font-size: 18;">Дата рождения:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="date" id="date" placeholder="Введите дату">
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%;" >
+                    <label for="date" class="col-form-label col-md-3" style="font-size: 18; text-align: right; margin-top: 16;">Пол:</label>
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Мужчина
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Женщина
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Другое
+                            </label>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="name" class="control-label col-md-3" style="font-size: 18; margin-top: 6;">Телефон:</label>
+                    <div class="col-sm-3">
+                        <input type="tel" class="form-control" id="phone" aria-describedby="telHelpBlock" placeholder="Введите номер">
+                        <div id="telHelpBlock" class="form-text" style="text-align: left;">
+                          Ваш телефон должен начинаться с 7, быть записан слитно, без знаков и пробелов. Пример: 78005553535
+                        </div>
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="date" class="col-form-label col-md-3" style="font-size: 18;">Email:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="email" id="email" placeholder="Введите email">
+                    </div>
+                  </div>
+                  <br>
+                  <hr size="5" width="50%" style="margin-left: 165;" >
+                  <br>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="hours" class="col-form-label col-md-3" style="font-size: 18;">Сколько часов в день Вы проводите в соцсетях?</label>
+                    <div class="col-sm-3" style="margin-top: 15;">
+                        <select class="form-select" aria-label="Default select example" id="hours">
+                            <option selected>-</option>
+                            <option value="1">1-2</option>
+                            <option value="2">3-4</option>
+                            <option value="3">5+</option>
+                        </select>
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="flexCheckDefault" class="form-check col-md-3" style="font-size: 18; margin-top: 25;">Для чего Вы используете соцсети?</label>
+                    <div class="col-sm-3" style="text-align: left;">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Для общения
+                      </label>
+                      <br>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Для поднятия настроения
+                      </label>
+                      <br>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Чтобы быть в курсе событий
+                      </label>
+                      <br>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Необходимо по работе
+                      </label>
+                      <br>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Другое
+                      </label>
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="other" class="control-label col-md-3" style="font-size: 18;">Если Вы выбрали "Другое", пожалуйста, уточните:</label>
+                    <div class="col-sm-3">
+                        <textarea rows="2" class="form-control" id="other" placeholder=""></textarea>
+                    </div>
+                  </div>
+                  <div class="mb-3 row" style="width: 190%; text-align: right;" >
+                    <label for="hours" class="col-form-label col-md-3" style="font-size: 18;">Считаете ли Вы себя <br>зависимым от соцсетей?</label>
+                    <div class="col-sm-3" style="margin-top: 15;">
+                        <select class="form-select" aria-label="Default select example" id="hours">
+                            <option selected>-</option>
+                            <option value="1">Да</option>
+                            <option value="2">Нет</option>
+                            <option value="3">Затрудняюсь ответить</option>
+                        </select>
+                    </div>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary" style="margin-left: 40%; margin-bottom: 20;">Отправить</button>
+                  <div class="mb-2 row" style="width: 190%; text-align: right;" >
+                    <label for="flexCheckDefaul" class="form-check col-md-1" style="font-size: 18; margin-top: 25;"></label>
+                    <div class="col-sm-4" style="text-align: center; margin-left: 10;">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaul">
+                      <label class="form-check-label" for="flexCheckDefaul">
+                        Я согласен на обработку данных
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </form>
+</datalist>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
